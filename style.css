@@ -1,0 +1,11 @@
+.jumbotron {
+    border: 5px solid white;
+    background-color: rgb(140, 192, 35);
+
+}
+
+.img-fluid {
+    display: flex;
+    justify-content: center;
+    border: 3px solid whitesmoke;
+}
