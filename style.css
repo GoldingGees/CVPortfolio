@@ -1,11 +1,29 @@
-.jumbotron {
-    border: 5px solid white;
-    background-color: rgb(140, 192, 35);
-
+body {
+    background-color: rgb(241, 169, 184);
 }
 
 .img-fluid {
     display: flex;
     justify-content: center;
-    border: 3px solid whitesmoke;
+    border: 5px solid rgb(70, 35, 67);
+    margin: 10px;
+}
+
+h1 {
+    color: rgb(160, 23, 76);
+}
+
+h4 {
+    color: rgb(160, 23, 76);
+}
+
+#skills svg.svg-inline--fa {
+    font-size: 4rem;
+    margin:auto;
+    color: rgb(70, 35, 67);
+    margin: 10px;
+}
+
+#skills svg.svg-inline--fa:hover {
+    color:crimson!important;
 }
