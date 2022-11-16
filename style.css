@@ -1,12 +1,13 @@
 body {
-    background-color: rgb(241, 169, 184);
+    background-color: rgb(243, 177, 190);
 }
 
 .img-fluid {
     display: flex;
     justify-content: center;
-    border: 5px solid rgb(70, 35, 67);
-    margin: 10px;
+    border: 5px solid rgb(70, 35, 67);y;
+    margin: 2px;
+    box-shadow: 1px 1px 15px gray;
 }
 
 h1 {
@@ -15,10 +16,22 @@ h1 {
 
 h4 {
     color: rgb(160, 23, 76);
+    font-family: Calibri;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(160, 23, 76);
+}
+
+strong {
+    color:rgb(70, 35, 67);
+
 }
 
 #skills svg.svg-inline--fa {
-    font-size: 4rem;
+    font-size: 2rem;
     margin:auto;
     color: rgb(70, 35, 67);
     margin: 10px;
@@ -26,4 +39,34 @@ h4 {
 
 #skills svg.svg-inline--fa:hover {
     color:crimson!important;
+    font-size: 2.5rem;
 }
+
+#contact-me {
+    color: crimson;
+    height: 60px;
+    margin: auto;
+    font-size: 30px;
+}
+
+#contact-me:hover {
+    color: rgb(119, 11, 83);
+}
+
+
+
+<div class="col">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+        </div>
+        <div class="col">
+            <a href="https://www.linkedin.com/in/golder-otobotekere-090b77147/"><i class="fab fa-linkedin"></i></a> 
+        </div>
+        <div class="col">
+            <a href="https://github.com/GoldingGees"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="col">
+            <a href="mailto: goldest491@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="col">
+            <a href="https://www.youtube.com/channel/UCi23OldyAvl7ug3iyr1xoGQ"><i class="fab fa-youtube"></i></a>
+        </div>
