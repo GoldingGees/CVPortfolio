@@ -1,11 +1,17 @@
 body {
-    background-color: rgb(243, 177, 190);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(207, 202, 202, 0.5)), url(.vscode/assets/css/img/code\ laptop\ background\ img.jpg);
+    background-size: cover;
+    background-position: center;
+    /*background-color: rgb(243, 177, 190);
+*/
 }
+
+
 
 .img-fluid {
     display: flex;
     justify-content: center;
-    border: 5px solid rgb(70, 35, 67);y;
+    border: 5px solid rgb(70, 35, 67);
     margin: 2px;
     box-shadow: 1px 1px 15px gray;
 }
@@ -17,6 +23,10 @@ h1 {
 h4 {
     color: rgb(160, 23, 76);
     font-family: Calibri;
+}
+
+p {
+    color: white;
 }
 
 .navbar-brand {
