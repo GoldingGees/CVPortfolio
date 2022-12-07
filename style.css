@@ -1,5 +1,7 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(207, 202, 202, 0.5)), url(.vscode/assets/css/img/code\ laptop\ background\ img.jpg);
+    background-image: linear-gradient(rgba(49, 1, 19, 0.5), rgba(207, 202, 202, 0.5)), url(.vscode/assets/css/img/code\ laptop\ background\ img.jpg);
+    overflow:auto;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     /*background-color: rgb(243, 177, 190);
@@ -19,12 +21,12 @@ h1 {
 }
 
 h4 {
-    color: white;
     font-family: Calibri;
 }
 
 p {
-    color: white;
+    color: rgb(128, 6, 33);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .navbar-brand {
