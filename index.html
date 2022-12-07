@@ -14,60 +14,55 @@
     <title>Golder's Web Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-secondary bg-light">
-        <a class="navbar-brand" href=".vscode/assets/css/img/Golder Otobotekere_Tailored Resume.pdf" title="Download Resume">Profile</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-        <li class="nav-item active">
-            <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="https://goldinggees.github.io/Project1/">Daily Nutri-Value</a>
-                <a class="dropdown-item" href="#">Stopwatch</a>
-                <a class="dropdown-item" href="#">Task Manager</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Separated link</a>
-              </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-        </li>
-        </ul>
-    </div>
-    </nav>
-<!-- Container with Profile Image and About Me -->
-<div class="container" id="Profile">
-    <div class="row">
-        <div class="col">
-            <img src="https://lh3.googleusercontent.com/62h8HNKmyMP51Qh2QDAxoSHbIw_k9IW_jV4igZKJAzZ7VO_1gubUpdpZ0-MT6I082lBXRS2wK6dqBW1zX1DULmt9fo_PiBL-53FGoHEZonstlxw79QuceJmdrkipLwvcUx2OXpfwivgoIORoJpIvKyQy24ZJ7g0JIuAIlMsAHcHtVOOCEjunkyFoxD7Z2R1MwW2ToxhCLgemKOWyhuZsyXugbbmCSH3mtFnaHWS1cmCSvU9Kxr_WNBozVZxMIq52nhmBLCaRLO_vLd4uveWtxSN0IqHZdfw7XzejuucFR7tojOlqD4sShR_RAw_oO3W0QwLRpOkLMcPb8HrBZAp8SCcTUFOgZHyBFAFRJbV5HYNqu-kb_FPkgJMCKcUQEOlrkY6S54cQuLbu7yhZiY_RH-Tq-qLRXWhNPKbRwwW7LTa-Fzmx9w15rzESYUvpuFplnHkIMC15CJ4GSBratvv7NsyjRniM5iXvOcMkaIPoMZgwPA6M2me4hdVwNXdwjBT72csOseayvORMcTP1Mxc0od2ZvMwlFRXWEKDL62038-K-q5IvdaRYQOjAgAPHPf0BRtHFcehmUZD2HUNtcrei4KDboCPktWUpsn6kT-p-b9RIpkIpP57kmrE0srkg309mE1xpT9to_Q7P1XyJQnSyL642mROuC3Fi6yoFKnBMH5276X1jo9FsPoiraNPLllEoml6oEnR0B6OJlt6tngYlN1mD-sQsooVf3bB9y-AwPl66Sc_X3zX65gcaTvuewLvgmw2Tl4OJiu14gmi-FaqXVXMFIIghO13bxMIoDrm2kUqDlB8Z3RA_a4ZE6j6YTWreEVgtONaofxIetAc-pExREg6NxeLP8iJXl9jaT_aH2h0mP2gt86Sda-hPyMgyCWzLvThs5-qLGXp3sQ7eTIvwrCU4MXgP_KSJax1OoYtJQg=w500-h625-no?authuser=0" class="img-fluid" alt="Profile Pic" width="150px" height="150px">
-            <h1 class="display-8"></h1>
-            <h1>Golder Otobotekere</h1>
-            <h6 class="lead">Junior Web Developer</h6>
-        </div>
-        <div class="col">
+<!-- Navbar -->
+<nav>
+<ul class="nav justify-content-end">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="https://goldinggees.github.io/Project1/">Daily Nutri-Value</a>
+        <a class="dropdown-item" href="#">Stopwatch</a>
+        <a class="dropdown-item" href="#">Task Manager</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#skills">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">Contact</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href=".vscode/assets/css/img/Golder Otobotekere_Tailored Resume.pdf" title="Download Resume">Resume</a>
+    </li>
+  </ul>
+</nav>
+<!-- Navbar ends-->
+
+<!-- Profile Image and About Me -->
+<div class="row">
+    <div class="col-sm-3" id="Profile">
+        <img src="https://lh3.googleusercontent.com/62h8HNKmyMP51Qh2QDAxoSHbIw_k9IW_jV4igZKJAzZ7VO_1gubUpdpZ0-MT6I082lBXRS2wK6dqBW1zX1DULmt9fo_PiBL-53FGoHEZonstlxw79QuceJmdrkipLwvcUx2OXpfwivgoIORoJpIvKyQy24ZJ7g0JIuAIlMsAHcHtVOOCEjunkyFoxD7Z2R1MwW2ToxhCLgemKOWyhuZsyXugbbmCSH3mtFnaHWS1cmCSvU9Kxr_WNBozVZxMIq52nhmBLCaRLO_vLd4uveWtxSN0IqHZdfw7XzejuucFR7tojOlqD4sShR_RAw_oO3W0QwLRpOkLMcPb8HrBZAp8SCcTUFOgZHyBFAFRJbV5HYNqu-kb_FPkgJMCKcUQEOlrkY6S54cQuLbu7yhZiY_RH-Tq-qLRXWhNPKbRwwW7LTa-Fzmx9w15rzESYUvpuFplnHkIMC15CJ4GSBratvv7NsyjRniM5iXvOcMkaIPoMZgwPA6M2me4hdVwNXdwjBT72csOseayvORMcTP1Mxc0od2ZvMwlFRXWEKDL62038-K-q5IvdaRYQOjAgAPHPf0BRtHFcehmUZD2HUNtcrei4KDboCPktWUpsn6kT-p-b9RIpkIpP57kmrE0srkg309mE1xpT9to_Q7P1XyJQnSyL642mROuC3Fi6yoFKnBMH5276X1jo9FsPoiraNPLllEoml6oEnR0B6OJlt6tngYlN1mD-sQsooVf3bB9y-AwPl66Sc_X3zX65gcaTvuewLvgmw2Tl4OJiu14gmi-FaqXVXMFIIghO13bxMIoDrm2kUqDlB8Z3RA_a4ZE6j6YTWreEVgtONaofxIetAc-pExREg6NxeLP8iJXl9jaT_aH2h0mP2gt86Sda-hPyMgyCWzLvThs5-qLGXp3sQ7eTIvwrCU4MXgP_KSJax1OoYtJQg=w500-h625-no?authuser=0" class="img-fluid" alt="Profile Pic" width="200px" height="200px">
+        <h6 class="lead">Junior Web Developer</h6>
+    </div>   
+    <div class="col-sm-9">
             <h4>About Me</h4>
-            <strong><p>Blending passion and profession into service and solutions in front-end web development.</p></strong>
             <hr class="my-4">
             <p>It's all about what makes you happy and fulfilled. I love to create; do stuff with my hands. From cooking to sewing, using handy tools to fix things, creating spaces, organizing; making my space beautiful and functional!
-            I love problem-solving, interacting with people, sharing ideas and working in a team. It is very satisfying to use my skills to make improvements in my enviroment. A challenging environment brings out the best in me!
-            Starting a career in Web development is an exciting journey for me as I see a new world of creativity opening up.</p>
+                I love problem-solving, interacting with people, sharing ideas and working in a team. It is very satisfying to use my skills to make improvements in my enviroment. A challenging environment brings out the best in me!
+                Starting a career in Web development is an exciting journey for me as I see a new world of creativity opening up.</p>
             <p>My goal as a JWD is to explore my creativity as I build, modify and create webpages.</p>
             <hr class="my-4">
-        </div>
     </div>
 </div>
+
 <!-- End of Container -->
-<div class="container">
+
+<div>
     <p>
-        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Education</button>
+        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Education</button>
     </p>
-    <div class="collapse" id="collapseExample">
-        <div class="col">
+    <div class="col">
+       <!-- <div class="collapse" id="collapseExample"> -->
             <ul>
                 <strong><li>Generations USA - Dec 2022</li></strong>
                 <p>Junior Web Developer Certified</p>
@@ -78,13 +73,10 @@
             </ul>
         </div>
     </div>
-</div>
-<br>
-<div class="container">
     <p>
-        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Experience</button>
+        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Experience</button>
     </p>
-    <div class="collapse" id="collapseExample">
+    <!-- <div class="collapse" id="collapseExample"> -->
         <div class="col">
             <ul>
                 <strong><li>Junior Web Developer (Jul 2022 - date)</li></strong>
@@ -97,10 +89,9 @@
         </div>
     </div>
 </div>
-<br>
-<div class="container">
-    <p><button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Skills</button></p>
-    <div class="collapse" id="collapseExample">
+<div>
+    <p><button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Skills</button></p>
+    <!-- <div class="collapse" id="collapseExample"> -->
     <div class="container" id="skills">
         <div class="row text-center justify-content-center align-item-center">
             <div class="col">
@@ -125,11 +116,9 @@
     </div>
 </div>
 </div>
-<br>
-<br>
-<br>
+
 <hr>
-<div class="container" id="contact-me">
+<div class="container" id="contact">
     <div class="row text-center justify-content-center align-item-center">
         <div class="col">
             <a href="https://www.instagram.com/p/CFzYw0FlLaq/?utm_source=ig_web_copy_link"><i class="fab fa-instagram"></i></a>
@@ -138,7 +127,7 @@
             <a href="https://github.com/GoldingGees"><i class="fab fa-github"></i></a>
             <a href="mailto: goldest491@gmail.com"><i class="fas fa-envelope"></i></a>
             <a href="https://www.youtube.com/channel/UCi23OldyAvl7ug3iyr1xoGQ"><i class="fab fa-youtube"></i></a>
-            <em><h6>Delivering outstanding services in front-end development.</h6></em>
+            <em><h6>Blending passion and profession into service and solutions in front-end web development.</h6></em>
         </div>  
     </div>
 </div>
